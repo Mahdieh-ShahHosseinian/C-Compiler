@@ -1,0 +1,45 @@
+int main ()
+{
+  int number1 = 0, number2, temp, fact = 1, start = 1, input;
+  write (' Enter number2:', number2);
+  read (int, number2);
+  write ('this is number2 = int', number2);
+  if (number1 > number2) so
+    {
+      temp = number1;
+      number1 = number2;
+      number2 = temp;
+    }
+  loop (number1 & number1 <= number2 & number1++)
+  {
+    write ('this is number1 = int', number1);
+  }
+  if (number1 < 0) so
+    {
+      number1 = -number1;
+    }
+  until (start <= number2)
+  {
+    fact *= start;
+    start++;
+  }
+  write (' this is fact of number2 = int', fact);
+  write ('Enter 0 or 1:');
+  read (int, input);
+  
+selector:input
+  {
+  select 0:
+    {
+      write ('this is ZERO !');
+    }
+  select 1:
+    {
+      write ('this is ONE !');
+    }
+  other:
+    {
+      write ('NONE');
+    }
+  }
+}
